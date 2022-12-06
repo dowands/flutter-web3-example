@@ -70,7 +70,7 @@ class Token extends GeneratedContract{
 
 class _MyHomePageState extends State<MyHomePage> {
   final connector = WalletConnect(
-    bridge: 'https://bridge.',
+    bridge: 'https://bridge.walletconnect.org',
     clientMeta: const PeerMeta(
       name: 'WalletConnect',
       description: 'WalletConnect Developer App',
